@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kilka słów o tym miejscu
-permalink: /about
+permalink: /about.html
 ---
 
 Oto strona domowa niewielkiego linuxowego VPSa o numerze 515 należącego do sieci

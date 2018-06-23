@@ -32,7 +32,7 @@ social:
 nav:
   local:
     - name: about
-      href: /about
+      href: /about.html
 
   external:
     - name: github
