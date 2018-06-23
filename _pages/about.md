@@ -10,7 +10,7 @@ darmowych serwerów dostępnych dzięki życzliwości
 oraz pracy autora projektu - [Jakuba Mrugalskiego](http://mrugalski.pl/).
 
 
-Więcej na ten temat można znaleść na oficjalnej [stronie projektu](http://mikr.us/)
+Więcej na ten temat można znaleść na oficjalnej [stronie projektu](http://mikr.us/).
 
 
 Ta jednostka jest wyposażona w 64 MB pamięci RAM oraz 64 MB pamięci SWAP.
