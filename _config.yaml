@@ -1,0 +1,87 @@
+name: uw515.mikr.us
+title: uw515.mikr.us
+author: Artur Tamborski
+description: Mikrus was here
+
+encoding: utf-8
+future: false
+unpublished: false
+
+baseurl:
+url: https://uw515.mikr.us/
+
+github:
+  username: arturtamborski
+
+twitter:
+  username: arturtamborski
+
+author:
+  twitter: arturtamborski
+
+social:
+  name: Artur Tamborski
+  links:
+    - https://keybase.io/arturtamborski
+    - https://github.com/arturtamborski
+    - https://twitter.com/arturtamborski
+    - https://www.linkedin.com/in/arturtamborski
+    - https://facebook.com/tamborskiartur
+    - https://plus.google.com/100097744760992392463
+
+nav:
+  local:
+    - name: about
+      href: /about
+
+  external:
+    - name: github
+      href: https://github.com/arturtamborski/mikrus
+
+lang: pl_PL
+language: pl
+timezone: Europe/Warsaw
+permalink: /:title
+
+markdown: kramdown
+
+scss:
+  style: compressed
+
+posts_dir: _posts
+pages_dir: _pages
+drafts_dir: _drafts
+assets_dir: assets
+layouts_dir: _layouts
+includes_dir: _includes
+
+include:
+  - _pages
+  - assets
+
+exclude:
+  - _posts/example.md
+  - _drafts
+  - README.md
+  - LICENSE
+  - CNAME
+  - Gemfile.lock
+  - Gemfile
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+
+# compress.html by Jonathan Volebregt
+# http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]

@@ -1,0 +1,43 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="image/png" href="/{{ site.baseurl }}{{ site.assets_dir }}/favicon.ico">
+    <link rel="alternate" href="{{ site.url }}" hreflang="x-default">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}{{ site.baseurl }}/sitemap.xml">
+  <style type="text/css">
+  {% capture scss %}{% include style.scss %}{% endcapture %}{{ scss | scssify }}
+  </style>
+    {% seo %}
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="{{ site.baseurl }}/{{ site.assets_dir }}/banner.png">
+        <div class="header-content">
+          <div class="header-title">
+            <h1><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+          </div>
+          <div class="header-nav">
+            <div class="header-nav-local">
+              {% for nav in site.nav.local %}
+              <a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.name }}</a>
+              {% endfor %}
+            </div>
+            <div class="header-nav-external">
+              {% for nav in site.nav.external %}
+              <a href="{{ nav.href }}" target="_blank">{{ nav.name }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ content }}
+    </div>
+  </body>
+</html>
