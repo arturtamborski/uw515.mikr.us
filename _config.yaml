@@ -41,7 +41,7 @@ nav:
 lang: pl_PL
 language: pl
 timezone: Europe/Warsaw
-permalink: /:title
+permalink: /posts/:title.html
 
 markdown: kramdown
 
